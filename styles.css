@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(90deg, rgba(77,72,72,1) 22%, rgba(121,121,121,1) 74%, rgba(187,186,186,1) 100%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,13 +12,37 @@ body {
 #app {
     text-align: center;
     background-color: #fff;
+    color:#000;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input, button {
+input {
     margin: 10px;
     padding: 10px;
     font-size: 16px;
 }
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:  #808080;
+    border: none;
+    color: #fff;
+
+}
+
+.weatherIcon {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+  }
+  
+  .weatherIcon img {
+    max-width: 100%;
+    width: 8rem;
+  }
+
+
